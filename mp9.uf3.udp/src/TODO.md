@@ -14,3 +14,19 @@
     //data és l'array de bytes rebuts
 ```
 <hr>
+
+>**Tasca 2**  
+> Seguint l'esquema après a la tasca 1, crea un servidor que generi un número aleatori(fes-ho amb la classe '[SecretNum](mp9/uf3/udp/unicast/joc/SecretNum.java)' i atengui
+> a les peticions dels clients que intenten encertar aquest número.
+> Ves comptabilitzant els intents que cada client/jugador fà.
+>
+> El servidor un cop rebut el numero proposat pel client li ha de respondre si el número que té és més gran, més petit
+> del que li ha enviat, o si ha encertat. Usar només el codi numèric de SecretNum.java (0,1,2)
+
+ ```java
+    // int -> byte[]    n -> missatge
+    byte[] missatge = ByteBuffer.allocate(4).putInt(n).array();
+    // byte[] -> int     data -> n
+    int n = ByteBuffer.wrap(data).getInt();
+```
+
