@@ -29,4 +29,10 @@
     // byte[] -> int     data -> n
     int n = ByteBuffer.wrap(data).getInt();
 ```
+<hr>
 
+## UDP Multicast  
+
+>**Tasca 3 (Multicast)**  
+> Crea un servidor multicast que emeti per un canal multicast paraules aleatòries agafades d'una llista pre-fabricada.  
+> Crear un client que es subscrigui a aquest servei multicast i imprimeixi les paraules amb el número de vegades que han sortit o van sortint, des de que t'has connectat
