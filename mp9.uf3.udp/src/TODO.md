@@ -1,5 +1,7 @@
 ## UDP
 
+### Setmana 1: 15/01 - 21/01
+
 >**Tasca 1**  
 >Implementeu el codi d'exemple que hi ha als apunts (Servidor i Client), i hi afegiu el següent:
 >Feu que:
@@ -14,6 +16,8 @@
     //data és l'array de bytes rebuts
 ```
 <hr>
+
+### Setmana 2: 22/01 - 28/01
 
 >**Tasca 2**  
 > Seguint l'esquema après a la tasca 1, crea un servidor que generi un número aleatori(fes-ho amb la classe '[SecretNum](mp9/uf3/udp/unicast/joc/SecretNum.java)' i atengui
@@ -30,6 +34,8 @@
     int n = ByteBuffer.wrap(data).getInt();
 ```
 <hr>
+
+### Setmana 3: 29/01 - 04/02
 
 ## UDP Multicast  
 
